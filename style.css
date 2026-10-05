@@ -79,9 +79,8 @@ a{ color:inherit; }
    LOGO — selo circular (assinatura visual da marca)
    ============================================================ */
 .logo-img{
-  width:150px; height:150px; border-radius:18px;
-  box-shadow:0 0 0 1px var(--border-subtle), 0 6px 18px rgba(0,0,0,0.5);
-  object-fit:contain; background:#fff;
+  display:block; width:100%; max-width:640px; height:auto;
+  border-radius:14px; object-fit:contain;
 }
 
 /* ============================================================
